@@ -1,34 +1,74 @@
-/* Meu primeiro comentario*/
-/* Reset do CSS */
-
-*{
-    margin: flex;  /* Margem */
-    padding: center;/* Preenchimento */
+/* Reset básico para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    height: 100%; /* altura */
-    width: 100%; /* largura */
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(#75e7f3 #adb3b4);
-    background-repeat: no-repeat;
+/* Configuração geral do body */
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to right, #f8cfd1, #f7b7a3); /* Gradiente suave de rosa */
+    color: #333;
+    text-align: center;
+    padding: 20px;
 }
- .imagem{
-     display: flex;
-     justify-content: center;
- }
- .imagem img{
-    width: 375px;
-    border-radius: 200px;
-    margin-top: 30px;
- }
- .name{
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    font-size: 32px;
-    font-weight: 600px;
-    color:  rebeccapurple ;
-    font-family: 'Courier New', Courier, monospace ;
- }
+
+/* Estilo para o contêiner principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para o título principal */
+h1 {
+    color: #e91e63; /* Rosa intenso para um toque romântico */
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    font-family: 'Dancing Script', cursive; /* Fonte elegante e cursiva */
+}
+
+/* Estilo para subtítulos */
+h2 {
+    color: #f48fb1; /* Rosa mais suave para subtítulos */
+    font-size: 2em;
+    margin: 20px 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Estilo para parágrafos */
+p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 1em;
+    line-height: 1.8;
+}
+
+/* Botão estilizado */
+button {
+    background-color: #e91e63; /* Cor de fundo rosa */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para o botão */
+button:hover {
+    background-color: #d81b60;
+}
+
+/* Imagem com bordas arredondadas */
+img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
